@@ -5,7 +5,7 @@
 body{
 	background: #272822;
 }
-#translate{
+#first-translate, #second-translate, #third-translate{
 	background: #223647;
 }
 h1{
@@ -29,4 +29,7 @@ p{
 #points{
 	position: fixed;
 	margin-left: 90%;
+}
+#first-question, #second-question, #third-question, #second-translate, #third-translate{
+	display: none;
 }
