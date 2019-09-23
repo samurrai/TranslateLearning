@@ -5,6 +5,7 @@ class SecondTranslate extends React.Component{
 	show(){		
 		document.getElementById('second-question').style.display = "block";
 		document.getElementById("second-btn").style.display = "none";
+		document.getElementById("second-translate").style.display = "none";
 	}
 	render(){
 		return(

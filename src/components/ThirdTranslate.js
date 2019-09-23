@@ -5,6 +5,7 @@ class ThirdTranslate extends React.Component{
 	show(){		
 		document.getElementById('third-question').style.display = "block";
 		document.getElementById("third-btn").style.display = "none";
+		document.getElementById("third-translate").style.display = "none";
 	}
 	render(){
 		return(

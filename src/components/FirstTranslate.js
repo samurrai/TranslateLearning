@@ -5,6 +5,7 @@ class FirstTranslate extends React.Component{
 	show(){		
 		document.getElementById('first-question').style.display = "block";
 		document.getElementById("first-btn").style.display = "none";
+		document.getElementById("first-translate").style.display = "none";
 	}
 	render(){
 		return(
